@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+@font-face {
+    font-family: n; 
+    src: url(n.woff); 
+}
+
+html, body {
+     height: 100%;
+}
+
+body {
+     background-color:#444;
+}
+
+#time {
+    position: absolute;
+    color: #FFF;
+    top: 200px;
+    right: 5%;
+    font-size: 7em;
+    text-shadow: 0 0 15px #FFF;
+    font-family: Georgia, monospace;
+    padding: 15px;
+    border-radius: 7px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    border-left: 2px solid rgba(155, 155, 155, 0.2);
+    border-bottom: 2px solid rgba(155, 155, 155, 0.2);
+}
