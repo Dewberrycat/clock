@@ -21,6 +21,7 @@ body {
 
 #time {
     position: absolute;
+    z-index: -1;
     color: #FFF;
     top: 200px;
     right: 5%;
